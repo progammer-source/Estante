@@ -5,7 +5,7 @@ export async function getPosts(apiUrl) {
     const response = await axios.get(apiUrl);
     return response.data;
   } catch (error) {
-    console.error("Error al consumir la API:", error.message);
+    console.error("Error ao consumir a API:", error.message);
     throw error;
   }
 }
