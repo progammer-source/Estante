@@ -1,1 +1,1 @@
-consumo dados com método 
+consumo de dados com método 
